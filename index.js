@@ -19,6 +19,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true })
   .then(() => {
     return server.listen({ port: PORT });
   }).then((res) => {
+    console.log('db connected')
   }).catch((error)=>{
     console.log(error);
   });
