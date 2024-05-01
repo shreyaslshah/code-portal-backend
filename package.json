@@ -1,0 +1,33 @@
+{
+  "name": "code-portal-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArshiaP/code-portal-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArshiaP/code-portal-backend/issues"
+  },
+  "homepage": "https://github.com/ArshiaP/code-portal-backend#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "apollo-server": "^3.6.7",
+    "axios": "^1.1.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "emailjs": "^4.0.2",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "nodemailer": "^6.8.0",
+    "validator": "^13.7.0"
+  }
+}
